@@ -1,8 +1,3 @@
-/* Navigation styles */
-
-/* Column styles */
-
-/* Footer Styles */
 .logo {
     background: white;
     height: 230px;
@@ -11,9 +6,129 @@
     background-position: center;
 }
 
+
+/* Navigation */
 .nav {
     display: flex;
     flex-direction: row;
     background-color: black;
     padding: 20px;
+}
+
+.left, .center, .right {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.center {
+    width: 50%;
+}
+
+.center a {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Buttons */
+.left button, .right button {
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+    width: 50%;
+}
+
+.right button{
+    background-color: yellow;
+}
+
+.left button {
+    background-color: skyblue;
+}
+
+/* Column with meal choices */
+.column {
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 auto;
+}
+
+.meal1, .meal2, .meal3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.meal1 {
+    margin-top: 20px;
+    background-image:url("../images/steak.png")
+}
+
+.meal2 {
+    margin-top: 20px;
+    background-image:url("../images/soup.png")
+}
+
+.meal3 {
+    margin-top: 20px;
+    background-image:url("../images/cheesecake.png")
+}
+
+.text {
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+.text p{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 20%; 
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+}
+
+.footer a {
+    padding: 30px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .fb {
+    color: skyblue;
+}
+
+.footer .tw {
+    color: yellow;
+}
+
+.footer .ig {
+    color: red;
 }
