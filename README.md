@@ -9,5 +9,5 @@ No installation needed.
 
 ## Usage
 
-Click this [link]("https://astarem.github.io/jakes-eatery-my-solution/") to see deployed website.
+Click this [link](https://astarem.github.io/jakes-eatery-my-solution/) to see deployed website.
 
